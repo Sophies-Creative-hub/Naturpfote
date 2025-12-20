@@ -1,5 +1,5 @@
 {
-  "name": "naturpfote---tierheilpraxis-&-ernaehrungsberatung",
+  "name": "naturpfote",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +15,8 @@
     "@fontsource/playfair-display": "^5.2.8",
     "@fontsource/plus-jakarta-sans": "^5.2.8",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
