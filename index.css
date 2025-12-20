@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+
+        :root {
+            --nature-green: #065f46;
+            --soft-sage: #e9efec;
+            --warm-gold: #c5a059;
+        }
+        * {
+            -webkit-tap-highlight-color: transparent;
+        }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #fdfdfb;
+            color: #2d2d2d;
+            overflow-x: hidden;
+        }
+        h1, h2, h3, h4, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .organic-gradient {
+            background: radial-gradient(circle at top right, #f2f7f5 0%, #ffffff 100%);
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: revealAnim 1s cubic-bezier(0.2, 1, 0.3, 1) forwards;
+        }
+        @keyframes revealAnim {
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .delay-1 { animation-delay: 0.1s; }
+        .delay-2 { animation-delay: 0.2s; }
+        
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
